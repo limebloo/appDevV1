@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0FBDB81C7422650046CF51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FBDB71C7422650046CF51 /* AppDelegate.swift */; };
+		CA0FBDBA1C7422650046CF51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FBDB91C7422650046CF51 /* ViewController.swift */; };
+		CA0FBDBD1C7422650046CF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0FBDBB1C7422650046CF51 /* Main.storyboard */; };
+		CA0FBDBF1C7422650046CF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0FBDBE1C7422650046CF51 /* Assets.xcassets */; };
+		CA0FBDC21C7422650046CF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0FBDC01C7422650046CF51 /* LaunchScreen.storyboard */; };
+		CA0FBDCD1C7422650046CF51 /* singleViewLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FBDCC1C7422650046CF51 /* singleViewLoginTests.swift */; };
+		CA0FBDD81C7422650046CF51 /* singleViewLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FBDD71C7422650046CF51 /* singleViewLoginUITests.swift */; };
+		CA94A9A81C76AA5D00D444E9 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94A9A71C76AA5D00D444E9 /* RegisterPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0FBDC91C7422650046CF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0FBDAC1C7422650046CF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0FBDB31C7422650046CF51;
+			remoteInfo = singleViewLogin;
+		};
+		CA0FBDD41C7422650046CF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0FBDAC1C7422650046CF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0FBDB31C7422650046CF51;
+			remoteInfo = singleViewLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0FBDB41C7422650046CF51 /* singleViewLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singleViewLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0FBDB71C7422650046CF51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA0FBDB91C7422650046CF51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA0FBDBC1C7422650046CF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0FBDBE1C7422650046CF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0FBDC11C7422650046CF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0FBDC31C7422650046CF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0FBDC81C7422650046CF51 /* singleViewLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singleViewLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0FBDCC1C7422650046CF51 /* singleViewLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleViewLoginTests.swift; sourceTree = "<group>"; };
+		CA0FBDCE1C7422650046CF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0FBDD31C7422650046CF51 /* singleViewLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singleViewLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0FBDD71C7422650046CF51 /* singleViewLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleViewLoginUITests.swift; sourceTree = "<group>"; };
+		CA0FBDD91C7422650046CF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA94A9A71C76AA5D00D444E9 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0FBDB11C7422650046CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDC51C7422650046CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDD01C7422650046CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0FBDAB1C7422650046CF51 = {
+			isa = PBXGroup;
+			children = (
+				CA94A9A71C76AA5D00D444E9 /* RegisterPageViewController.swift */,
+				CA0FBDB61C7422650046CF51 /* singleViewLogin */,
+				CA0FBDCB1C7422650046CF51 /* singleViewLoginTests */,
+				CA0FBDD61C7422650046CF51 /* singleViewLoginUITests */,
+				CA0FBDB51C7422650046CF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0FBDB51C7422650046CF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FBDB41C7422650046CF51 /* singleViewLogin.app */,
+				CA0FBDC81C7422650046CF51 /* singleViewLoginTests.xctest */,
+				CA0FBDD31C7422650046CF51 /* singleViewLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0FBDB61C7422650046CF51 /* singleViewLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FBDB71C7422650046CF51 /* AppDelegate.swift */,
+				CA0FBDB91C7422650046CF51 /* ViewController.swift */,
+				CA0FBDBB1C7422650046CF51 /* Main.storyboard */,
+				CA0FBDBE1C7422650046CF51 /* Assets.xcassets */,
+				CA0FBDC01C7422650046CF51 /* LaunchScreen.storyboard */,
+				CA0FBDC31C7422650046CF51 /* Info.plist */,
+			);
+			path = singleViewLogin;
+			sourceTree = "<group>";
+		};
+		CA0FBDCB1C7422650046CF51 /* singleViewLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FBDCC1C7422650046CF51 /* singleViewLoginTests.swift */,
+				CA0FBDCE1C7422650046CF51 /* Info.plist */,
+			);
+			path = singleViewLoginTests;
+			sourceTree = "<group>";
+		};
+		CA0FBDD61C7422650046CF51 /* singleViewLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FBDD71C7422650046CF51 /* singleViewLoginUITests.swift */,
+				CA0FBDD91C7422650046CF51 /* Info.plist */,
+			);
+			path = singleViewLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0FBDB31C7422650046CF51 /* singleViewLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0FBDDC1C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLogin" */;
+			buildPhases = (
+				CA0FBDB01C7422650046CF51 /* Sources */,
+				CA0FBDB11C7422650046CF51 /* Frameworks */,
+				CA0FBDB21C7422650046CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = singleViewLogin;
+			productName = singleViewLogin;
+			productReference = CA0FBDB41C7422650046CF51 /* singleViewLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0FBDC71C7422650046CF51 /* singleViewLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0FBDDF1C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLoginTests" */;
+			buildPhases = (
+				CA0FBDC41C7422650046CF51 /* Sources */,
+				CA0FBDC51C7422650046CF51 /* Frameworks */,
+				CA0FBDC61C7422650046CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0FBDCA1C7422650046CF51 /* PBXTargetDependency */,
+			);
+			name = singleViewLoginTests;
+			productName = singleViewLoginTests;
+			productReference = CA0FBDC81C7422650046CF51 /* singleViewLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA0FBDD21C7422650046CF51 /* singleViewLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0FBDE21C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLoginUITests" */;
+			buildPhases = (
+				CA0FBDCF1C7422650046CF51 /* Sources */,
+				CA0FBDD01C7422650046CF51 /* Frameworks */,
+				CA0FBDD11C7422650046CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0FBDD51C7422650046CF51 /* PBXTargetDependency */,
+			);
+			name = singleViewLoginUITests;
+			productName = singleViewLoginUITests;
+			productReference = CA0FBDD31C7422650046CF51 /* singleViewLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0FBDAC1C7422650046CF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Timpanogos Digital";
+				TargetAttributes = {
+					CA0FBDB31C7422650046CF51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PJN3DJ7YJ7;
+					};
+					CA0FBDC71C7422650046CF51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA0FBDB31C7422650046CF51;
+					};
+					CA0FBDD21C7422650046CF51 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA0FBDB31C7422650046CF51;
+					};
+				};
+			};
+			buildConfigurationList = CA0FBDAF1C7422650046CF51 /* Build configuration list for PBXProject "singleViewLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0FBDAB1C7422650046CF51;
+			productRefGroup = CA0FBDB51C7422650046CF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0FBDB31C7422650046CF51 /* singleViewLogin */,
+				CA0FBDC71C7422650046CF51 /* singleViewLoginTests */,
+				CA0FBDD21C7422650046CF51 /* singleViewLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0FBDB21C7422650046CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0FBDC21C7422650046CF51 /* LaunchScreen.storyboard in Resources */,
+				CA0FBDBF1C7422650046CF51 /* Assets.xcassets in Resources */,
+				CA0FBDBD1C7422650046CF51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDC61C7422650046CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDD11C7422650046CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0FBDB01C7422650046CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0FBDBA1C7422650046CF51 /* ViewController.swift in Sources */,
+				CA0FBDB81C7422650046CF51 /* AppDelegate.swift in Sources */,
+				CA94A9A81C76AA5D00D444E9 /* RegisterPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDC41C7422650046CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0FBDCD1C7422650046CF51 /* singleViewLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0FBDCF1C7422650046CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0FBDD81C7422650046CF51 /* singleViewLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0FBDCA1C7422650046CF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0FBDB31C7422650046CF51 /* singleViewLogin */;
+			targetProxy = CA0FBDC91C7422650046CF51 /* PBXContainerItemProxy */;
+		};
+		CA0FBDD51C7422650046CF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0FBDB31C7422650046CF51 /* singleViewLogin */;
+			targetProxy = CA0FBDD41C7422650046CF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0FBDBB1C7422650046CF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0FBDBC1C7422650046CF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0FBDC01C7422650046CF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0FBDC11C7422650046CF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0FBDDA1C7422650046CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA0FBDDB1C7422650046CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0FBDDD1C7422650046CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = singleViewLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CA0FBDDE1C7422650046CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = singleViewLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CA0FBDE01C7422650046CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = singleViewLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/singleViewLogin.app/singleViewLogin";
+			};
+			name = Debug;
+		};
+		CA0FBDE11C7422650046CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = singleViewLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/singleViewLogin.app/singleViewLogin";
+			};
+			name = Release;
+		};
+		CA0FBDE31C7422650046CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = singleViewLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = singleViewLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA0FBDE41C7422650046CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = singleViewLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimpanogosDigital.singleViewLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = singleViewLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0FBDAF1C7422650046CF51 /* Build configuration list for PBXProject "singleViewLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0FBDDA1C7422650046CF51 /* Debug */,
+				CA0FBDDB1C7422650046CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0FBDDC1C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0FBDDD1C7422650046CF51 /* Debug */,
+				CA0FBDDE1C7422650046CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0FBDDF1C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0FBDE01C7422650046CF51 /* Debug */,
+				CA0FBDE11C7422650046CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0FBDE21C7422650046CF51 /* Build configuration list for PBXNativeTarget "singleViewLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0FBDE31C7422650046CF51 /* Debug */,
+				CA0FBDE41C7422650046CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0FBDAC1C7422650046CF51 /* Project object */;
+}
